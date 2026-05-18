@@ -37,3 +37,16 @@ app.listen(3000, () => {
   console.log("Server started at http://localhost:3000");
 });
 
+// need to install node.js also from browser
+// folder in xampp/tomcat/webapps
+// food-delivery/
+// ├── views/              # (Must be named 'views')
+// │   ├── index.ejs       # Home page (Restaurant list)
+// │   └── menu.ejs        # Menu page (Order items)
+// ├── server.js
+
+// in cmd promt 
+// 1.got to path C:\xampp\tomcat\webapps> --------cd food-delivery
+// 2. C:\xampp\tomcat\webapps\food-delivery>-----npm init -y
+// 3.C:\xampp\tomcat\webapps\food-delivery>------npm install express ejs body-parser
+// 4.C:\xampp\tomcat\webapps\food-delivery>------node server.js
