@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Delivery</title>
+</head>
+<body>
+    <h1>Available Restaurants</h1>
+    <ul>
+        <% restaurants.forEach(restaurant => { %>
+            <li>
+                <strong><%= restaurant.name %></strong> 
+                <a href="/menu/<%= restaurant.id %>">View Menu</a>
+            </li>
+        <% }); %>
+    </ul>
+</body>
+</html>
